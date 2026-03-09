@@ -60,7 +60,7 @@ class Config:
 
     # Pinecone
     PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
-    PINECONE_INDEX = os.environ.get("PINECONE_INDEX", "mba-copilot")
+    PINECONE_INDEX = os.environ.get("PINECONE_INDEX", "documents")
 
     # RAG Settings (token-based)
     # Larger chunks to keep more context together
